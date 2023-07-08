@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter basename='/employee_app_frontend_using_react'>
         <Routes>
           <Route basename='/employee_app_frontend_using_react' path='/' element={<Home/>}/>
-          <Route basename='/employee_app_frontend_using_react' path='/' element={<Employeeform/>}/>
+          <Route basename='/employee_app_frontend_using_react' path='/employee_form' element={<Employeeform/>}/>
         </Routes>
       </BrowserRouter>
     </div>
