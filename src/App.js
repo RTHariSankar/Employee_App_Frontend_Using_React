@@ -6,10 +6,10 @@ import Home from './components/Home';
 function App() {
   return (
     <div>
-      <BrowserRouter basename='/employee_app_frontend_using_react'>
+      <BrowserRouter>
         <Routes>
-          <Route basename='employee_app_frontend_using_react' path='/' element={<Home/>}/>
-          <Route basename='employee_app_frontend_using_react' path='/employee_form' element={<Employeeform/>}/>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/employee_form' element={<Employeeform/>}/>
         </Routes>
       </BrowserRouter>
     </div>
