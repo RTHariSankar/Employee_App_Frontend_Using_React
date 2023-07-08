@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <BrowserRouter basename='/employee_app_frontend_using_react'>
-        <Routes>
+        <Routes basename='/employee_app_frontend_using_react'>
           <Route path='/' element={<Home/>}/>
           <Route path='/employee_form' element={<Employeeform/>}/>
         </Routes>
