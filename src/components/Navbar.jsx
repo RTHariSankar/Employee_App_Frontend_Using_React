@@ -15,7 +15,7 @@ const Navbar = () => {
                         <a class="nav-link active" aria-current="page" href="/employee_app_frontend_using_react">Home</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="/employee_form">Employee Form</a>
+                        <a class="nav-link" href="/employee_app_frontend_using_react/employee_form">Employee Form</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
