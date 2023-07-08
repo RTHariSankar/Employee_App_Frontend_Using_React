@@ -5,7 +5,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar navbar-expand-lg bg-primary navbar-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="/employee_app_frontend_using_react">
             Employee Dashboard
           </a>
           <button
@@ -22,12 +22,12 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <a className="nav-link active" aria-current="page" href="/employee_app_frontend_using_react">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/employee_form">
+                <a className="nav-link" href="/employee_app_frontend_using_react/employee_form">
                   Employee Form
                 </a>
               </li>
